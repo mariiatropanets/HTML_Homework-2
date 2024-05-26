@@ -1,0 +1,78 @@
+:root {
+  --color--blue: #2196f3;
+  --color--gray: #757575;
+  --color--dark-blue: #2f303a;
+  --color--text-black: #212121;
+}
+
+* {
+  transition: all 0.25s;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: #eee;
+}
+
+.header__content {
+  display: flex;
+  height: 80px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--color--text-black);
+  text-decoration: none;
+}
+
+.logo__blue {
+  color: var(--color--blue);
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: var(--color--text-black);
+  text-decoration: none;
+}
+
+.contacts__link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: var(--color--gray);
+  text-decoration: none;
+}
+
+.nav__link:hover, .contacts__link:hover {
+  color: var(--color--blue)
+}
