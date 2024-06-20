@@ -17,12 +17,12 @@
       <div class="container">
         <div class="header__content">
           <a
-            class="logo"
+            class="header__logo logo"
             href="https://mariiatropanets.github.io/HTML_Homework-2/"
           >
             <span class="logo__blue">Web</span>Studio
           </a>
-  
+
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
@@ -36,8 +36,8 @@
               </li>
             </ul>
           </nav>
-  
-          <div class="contacts">
+
+          <div class="contacts header__contacts contacts--header">
             <a href="mailto:info@devstudio.com" class="contacts__link">
               info@devstudio.com</a
             >
@@ -56,129 +56,151 @@
       </section>
 
       <section class="features">
-        <ul class="features__list">
-          <li class="features__item">
-            <h3 class="features__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="features__text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="features__item">
-            <h3 class="features__title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="features__text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="features__item">
-            <h3 class="features__title">ПЛАНУВАННЯ</h3>
-            <p class="features__text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="features__item">
-            <h3 class="features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="features__text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="features__list">
+            <li class="features__item">
+              <h3 class="features__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features__text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features__text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__title">ПЛАНУВАННЯ</h3>
+              <p class="features__text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features__text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="services">
-        <h2 class="services__title">Чим ми займаємося</h2>
-        <ul class="services__list">
-          <li class="services__item">
-            <img
-              src="./images/services--1.jpg"
-              alt="Service photo"
-              class="services__image"
-            />
-          </li>
-          <li class="services__item">
-            <img
-              src="./images/services--2.jpg"
-              alt="Service photo"
-              class="services__image"
-            />
-          </li>
-          <li class="services__item">
-            <img
-              src="./images/services--3.jpg"
-              alt="Service photo"
-              class="services__image"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="services__title">Чим ми займаємося</h2>
+          <ul class="services__list">
+            <li class="services__item">
+              <img
+                src="./images/services--1.jpg"
+                alt="Service photo"
+                class="services__image"
+              />
+            </li>
+            <li class="services__item">
+              <img
+                src="./images/services--2.jpg"
+                alt="Service photo"
+                class="services__image"
+              />
+            </li>
+            <li class="services__item">
+              <img
+                src="./images/services--3.jpg"
+                alt="Service photo"
+                class="services__image"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="team">
-        <h2 class="team__title">Наша команда</h2>
-        <ul class="team__list">
-          <li class="team__item">
-            <img
-              class="team__image"
-              src="./images/team--1.jpg"
-              alt="person photo"
-            />
-            <h3 class="team__person-name">Ігор Дем'яненко</h3>
-            <p class="team__person-role">Product Designer</p>
-          </li>
-          <li class="team__item">
-            <img
-              class="team__image"
-              src="./images/team--2.jpg"
-              alt="person photo"
-            />
-            <h3 class="team__person-name">Ольга Рєпіна</h3>
-            <p class="team__person-role">Frontend Developer</p>
-          </li>
-          <li class="team__item">
-            <img
-              class="team__image"
-              src="./images/team--3.jpg"
-              alt="person photo"
-            />
-            <h3 class="team__person-name">Микола Тарасов</h3>
-            <p class="team__person-role">Marketing</p>
-          </li>
-          <li class="team__item">
-            <img
-              class="team__image"
-              src="./images/team--4.jpg"
-              alt="person photo"
-            />
-            <h3 class="team__person-name">Михайло Єрмаков</h3>
-            <p class="team__person-role">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team__title">Наша команда</h2>
+          <ul class="team__list">
+            <li class="team__item person">
+              <img
+                class="person__image"
+                src="./images/team--1.jpg"
+                alt="person photo"
+              />
+              <div class="person__info">
+                <h3 class="person__name">Ігор Дем'яненко</h3>
+                <p class="person__role">Product Designer</p>
+              </div>
+            </li>
+            <li class="team__item person">
+              <img
+                class="person__image"
+                src="./images/team--2.jpg"
+                alt="person photo"
+              />
+              <div class="person__info">
+                <h3 class="person__name">Ольга Рєпіна</h3>
+                <p class="person__role">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team__item person">
+              <img
+                class="person__image"
+                src="./images/team--3.jpg"
+                alt="person photo"
+              />
+
+              <div class="person__info">
+                <h3 class="person__name">Микола Тарасов</h3>
+                <p class="person__role">Marketing</p>
+              </div>
+            </li>
+            <li class="team__item person">
+              <img
+                class="person__image"
+                src="./images/team--4.jpg"
+                alt="person photo"
+              />
+              <div class="person__info">
+                <h3 class="person__name">Михайло Єрмаков</h3>
+                <p class="person__role">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="logo" href="https://mariiatropanets.github.io/HTML_Homework-2/"
-        >WebStudio</a
-      >
-
-      <div class="contacts">
-        <address class="contacts__address">
+      <div class="container">
+        <div class="footer__content">
           <a
-            href="https://maps.app.goo.gl/Jf8u5sLAM8RG6K3F6"
-            class="contacts__link"
-            target="_blank"
+            class="logo logo--footer"
+            href="https://mariiatropanets.github.io/HTML_Homework-2/"
           >
-            м. Київ, пр-т Лесі Українки, 26
+            <span class="logo__blue">Web</span>Studio
           </a>
-        </address>
 
-        <a href="mailto:info@devstudio.com" class="contacts__link">
-          info@devstudio.com</a
-        >
-        <a href="tel:+380961111111" class="contacts__link">
-          +38 096 111 11 11
-        </a>
+          <div class="contacts contacts--footer">
+            <address class="contacts__address">
+              <a
+                href="https://maps.app.goo.gl/Jf8u5sLAM8RG6K3F6"
+                class="contacts__link contacts__link--address"
+                target="_blank"
+              >
+                м. Київ, пр-т Лесі Українки, 26
+              </a>
+            </address>
+
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              info@devstudio.com</a
+            >
+            <a href="tel:+380961111111" class="contacts__link">
+              +38 096 111 11 11
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
